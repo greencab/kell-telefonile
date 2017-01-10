@@ -1,0 +1,77 @@
+/*#txt {
+    text-align: center;
+    color: blue;
+    font-size: 90px;
+}
+*/
+h1 {
+	text-align: center;
+}
+/*
+#demo {
+	font-family: Lucida, Console, Monaco, monospace;
+}
+/*
+#txt{
+    position:absolute;
+    display:block;
+    height:100px;
+    width:100px;
+    left:50%;
+    top:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+    font-size: 90px;
+    color: white;
+}
+*/
+#txt {
+	/*
+	height: 200px;
+	width: 400px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	font-size: 150px;
+	color: white;
+	text-align: center;
+	*/
+	text-align: center;
+	color: white;
+	font-size: 150px;
+	top: 50%;
+	position: fixed;
+	left: 35%;
+}
+#paev {
+	height: 200px;
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	font-size: 150px;
+	color: white;
+}
+body {
+  background-image: url("img/k09d-v-u-e0-joanna-kosinska.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  font-family: 'Space', Fallback, sans-serif;
+	/*
+	max-width: 100%;
+	height: auto;
+	display: block;
+  margin: auto;
+	*/
+}
+@font-face {
+    font-family: 'Space'; /*a name to be used later*/
+    src: url('fonts/space.ttf'); /*URL to font*/
+}
+#test {
+	font-size: 200px;
+	text-align: center;
+}
